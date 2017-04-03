@@ -17,8 +17,7 @@ based on [vue-hackernews-2.0](https://github.com/vuejs/vue-hackernews-2.0)
 
 ## Features
 
-- Server Side Rendering
-- Server-side data pre-fetching
+- Server Side & Client Side Rendering
 - Client-side state & DOM hydration
 - Automatically inlines CSS used by rendered components only
 - Hot-reload in development
