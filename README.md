@@ -1,19 +1,12 @@
 # teufel-it.de
 
-Website of teufel-it.de created with Bootstraps, Vue.js and Webpack running on a Express Node with server-side rendering.
+teufel-it.de created with [Bootstraps 4](https://v4-alpha.getbootstrap.com/), [Vue.js 2](https://vuejs.org/) and [Webpack 2](https://webpack.github.io/) running on a [Express](http://expressjs.com/de/) node with server-side rendering.
 
 based on [vue-hackernews-2.0](https://github.com/vuejs/vue-hackernews-2.0)
 
 ## Demo
 
 [Live Demo](https://teufel-it.de/)
-
-## Stack
-
-- [Vue.js 2](https://vuejs.org/)
-- [Bootstraps 4](https://v4-alpha.getbootstrap.com/)
-- [Express](http://expressjs.com/de/)
-- [Webpack 2](https://webpack.github.io/)
 
 ## Features
 
