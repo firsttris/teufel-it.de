@@ -1,0 +1,28 @@
+$red = #f00
+
+.header
+  width 100%
+  position fixed
+  top 0px
+  z-index 10
+  border-bottom: 1px solid $red
+  ul
+    list-style-type none
+    margin 0
+    padding 0
+    overflow: hidden
+    background-image url("./../assets/images/backgrounds/paper.png")
+    li
+      float left
+      a
+        display block
+        color white
+        text-align center
+        padding 14px 16px
+        text-decoration none
+        &:hover
+          background-color white
+          color: black
+
+.red
+  background-color $red

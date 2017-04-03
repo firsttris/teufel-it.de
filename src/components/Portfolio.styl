@@ -1,0 +1,40 @@
+$red = #f00;
+
+.flipContainer
+  perspective: 800px;
+  height: 250px;
+
+.flipCard {
+  width: 100%;
+  transform-style: preserve-3d;
+  transition: transform 1s linear;
+  backface-visibility: hidden;
+}
+
+.cards {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.front {
+}
+
+.cardBorder {
+  border: 1px solid $red
+  border-radius: 5px;
+  width: 50%;
+  margin: auto;
+}
+
+.iconBig
+  font-size 10em;
+  color: $red;
+
+.title
+  font-size: 1.5em;

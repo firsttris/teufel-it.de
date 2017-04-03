@@ -1,0 +1,37 @@
+.iconBig
+  color: red
+  text-align center
+  padding-top 15px
+
+.image
+  position relative
+  opacity 0.65
+  background-attachment fixed
+  background-position center
+  background-repeat no-repeat
+  background-size: cover
+  min-height: 400px
+
+.much_code
+  background-image url("./../assets/images/code.jpg")
+  height: 550px;
+
+.meeting
+  background-image url("./../assets/images/meeting.jpg")
+
+.center
+  text-align: center
+
+.fontSize30Spacing10
+  font-size 30px
+  letter-spacing 10px
+
+@media (max-width: 768px)
+  .image
+    background-attachment scroll
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .image {
+    background-attachment: scroll;
+  }
+}
