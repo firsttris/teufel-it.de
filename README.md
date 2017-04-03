@@ -1,20 +1,25 @@
 # teufel-it.de
 
-A Vue.js clone built with Vue 2.0 + vue-router + vuex, with server-side rendering.
+Website of teufel-it.de created with Bootstraps 4, Vue.js and Webpack running on a Express Node with server-side rendering.
 
 ## Demo
 
 [Live Demo](https://teufel-it.de/)
 
+## Stack
+
+- [Vue.js 2](https://vuejs.org/)
+- [Bootstraps 4](https://v4-alpha.getbootstrap.com/)
+- [Express](http://expressjs.com/de/)
+- [Webpack 2](https://webpack.github.io/)
+
 ## Features
 
 - Server Side Rendering
-  - Vue + vue-router + vuex working together
-  - Server-side data pre-fetching
-  - Client-side state & DOM hydration
-  - Automatically inlines CSS used by rendered components only
-- Single-file Vue Components
-  - Hot-reload in development
+- Server-side data pre-fetching
+- Client-side state & DOM hydration
+- Automatically inlines CSS used by rendered components only
+- Hot-reload in development
   
 ## Performance
 
