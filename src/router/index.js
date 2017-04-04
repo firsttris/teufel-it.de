@@ -33,7 +33,7 @@ const router = new VueRouter({
       name: 'softwareentwicklung',
       component: Projekte,
       meta: {
-        title: 'Teufel IT, Softwareentwicklung'
+        title: 'Teufel IT, Softwareentwicklung in Bühl, Baden-Baden, Rastatt, Karlsruhe und Umgebung'
       }
     },
     {
@@ -41,7 +41,7 @@ const router = new VueRouter({
       name: 'sendtokodi',
       component: SendToKodi,
       meta: {
-        title: 'Teufel IT, SendToKodi'
+        title: 'Teufel IT, Send almost any link to Kodi with, SendToKodi'
       }
     },
     {
@@ -59,11 +59,10 @@ const router = new VueRouter({
   }
 })
 
-router.beforeEach((to, from, next) => {
+router.afterEach((to, from, next) => {
   if (process.BROWSER) {
     document.title = to.meta.title
   }
-  next()
 })
 
 export default router

@@ -8,7 +8,7 @@
         <router-link to="/it-strategieberatung" v-bind:class="{ red: strategie }">Beratung</router-link>
       </li>
       <li @click="development = false, strategie = false, projekte = true">
-        <router-link to="/softwareentwicklung" v-bind:class="{ red: projekte }">Projekte</router-link>
+        <router-link to="/softwareentwicklung" v-bind:class="{ red: projekte }">Software</router-link>
       </li>
     </ul>
   </div>

@@ -6,7 +6,6 @@
         <div class="text-uppercase title">{{ title }}</div>
       </div>
       <div class="cards back">
-        <br>
         <div class="cardBorder p-2">{{ text }}</div>
       </div>
     </div>

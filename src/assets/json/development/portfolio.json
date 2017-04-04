@@ -3,28 +3,28 @@
   "text": "Wir sind zuverlässiger Partner bei",
   "cards": [
     {
-      "title": "apps",
-      "iconClass": "fa-rocket",
+      "title": "software",
+      "iconClass": "fa-github",
       "gridClass": "col-xs-12 col-md-6 col-lg-3",
-      "text": "Entwicklung für Native, Web und Cross-Platform Applikationen."
+      "text": "Entwicklung von Native, Web und Cross-Platform Anwendungen."
     },
     {
       "title": "mobile",
       "iconClass": "fa-mobile",
       "gridClass": "col-xs-12 col-md-6 col-lg-3",
-      "text": "Mobile App Entwicklung in iOS und Android."
+      "text": "Mobile Software Entwicklung für iOS und Android."
     },
     {
-      "title": "open-source",
-      "iconClass": "fa-github",
-      "gridClass": "col-xs-12 col-md-6 col-lg-3",
-      "text": "Aktive Mitwirkung in Open-Source Software Projekten."
-    },
-    {
-      "title": "back-end",
+      "title": "services",
       "iconClass": "fa-code-fork",
       "gridClass": "col-xs-12 col-md-6 col-lg-3",
-      "text": "Unterstützung bei Entwicklung, Migration oder Integration Ihrer Services."
+      "text": "Integration und Migration von Business Services."
+    },
+    {
+      "title": "training",
+      "iconClass": "fa-graduation-cap",
+      "gridClass": "col-xs-12 col-md-6 col-lg-3",
+      "text": "Wir teilen unser Wissen, neue Konzepte und Disziplinen."
     }
   ]
 }
