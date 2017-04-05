@@ -14,12 +14,11 @@ based on [vue-hackernews-2.0](https://github.com/vuejs/vue-hackernews-2.0)
 - Client-side state & DOM hydration
 - Automatically inlines CSS used by rendered components only
 - Hot-reload in development
+- Docker Image
   
 ## Performance
 
-Google Page Speed :100:
-
-[Run Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/?hl=de&url=teufel-it.de)  
+Run [Google Page Speed Insights](https://developers.google.com/speed/pagespeed/insights/?hl=de&url=teufel-it.de) :100:
 
 ## Architecture Overview
 
@@ -41,6 +40,18 @@ npm run build
 
 # serve in production mode
 npm start
+```
+
+## Docker
+``` bash
+# build docker image
+docker build -t node/teufel-it.de .
+
+# create & run docker container
+docker run \
+--name teufel-it-de \
+--restart=always \
+-d node/teufel-it.de
 ```
 
 ## Sources
