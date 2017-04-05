@@ -6,13 +6,13 @@
       "title": "software",
       "iconClass": "fa-github",
       "gridClass": "col-xs-12 col-md-6 col-lg-3",
-      "text": "Entwicklung von Native, Web und Cross-Platform Anwendungen."
+      "text": "Entwicklung von Nativen-, Web- und Cross-Platform Anwendungen."
     },
     {
       "title": "mobile",
       "iconClass": "fa-mobile",
       "gridClass": "col-xs-12 col-md-6 col-lg-3",
-      "text": "Mobile Software Entwicklung für iOS und Android."
+      "text": "Mobile Entwicklung für iOS und Android."
     },
     {
       "title": "services",
@@ -24,7 +24,7 @@
       "title": "training",
       "iconClass": "fa-graduation-cap",
       "gridClass": "col-xs-12 col-md-6 col-lg-3",
-      "text": "Wir teilen unser Wissen, neue Konzepte und Disziplinen."
+      "text": "Wir teilen unser Wissen, neue Konzepte und Methoden."
     }
   ]
 }
