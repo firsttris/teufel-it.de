@@ -60,5 +60,4 @@ docker run \
 [vue-hackernews-2.0](https://github.com/vuejs/vue-hackernews-2.0)
 
 ## License
-
-[MIT](http://opensource.org/licenses/MIT)
+See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
