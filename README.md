@@ -59,5 +59,8 @@ docker run \
 [vue-ssr-demo](https://github.com/doabit/vue-ssr-starter-kit)   
 [vue-hackernews-2.0](https://github.com/vuejs/vue-hackernews-2.0)
 
+## Donate
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KEAR9ZC228YCL)
+
 ## License
 See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
